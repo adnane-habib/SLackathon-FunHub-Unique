@@ -25,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/adnane-habib/SLackathon-FunHub-Unique/">
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -52,12 +52,10 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#project workflow">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -76,7 +74,7 @@ The Fun Hub is a project idea for Simplilearn/IBM SLackathon.
 I am working on the project during the completion of my Simplilearn Professional Certificate Program In Data Science with University of Purdue in Collaboration with IBM.
 
 Here is the project idea:
-* Imagine a OTT service provider "The Fun Hub"
+* Imagine a OTT service provider "__The Fun Hub__"
 * Subscription to the Fun Hub offers you access to the main OTT plateforms (for example Netflix, Disney +, Amazon Prime)
 * The Fun Hub algorithm will suggest programs based on preferences, as well as the agremment it signed with the other OTT plateforms based on a ratio of programs from each plateform.
 
@@ -85,85 +83,50 @@ Here is the project idea:
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- Project Idea -->
+## project Idea
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The prject idea is quite simple. Many OTT plateforms users have to choose between different plateforms, or pay subscriptions to different palteforms.
+__The Fun Hub__ is a OTT plateform service has agreements with the main OTT palteforms (say for example Netflix, Amazon Prime Video, Dinsey +) and guarantree to these provides a minimum number of customers and views. The plateforms offer then a discount sube scription price (negociated on the number of views) and access to users preferences data.
+
+__The Fun Hub__ is hence able to offer access to the porfolio of all the OTT plateforms at a competitive price, and the user historical views preferences will help suggesting relevant shows.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+*SLA with OTT plateforms with a number of views per cycle (weekly, monthly).
 
-### Installation
+*Access to OTT plateforms raw data about users shows ratings.
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+### Workflow
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+<!-- Project Workflow -->
+<br />
+<div align="center">
+  <a href="https://github.com/adnane-habib/SLackathon-FunHub-Unique/">
+    <img src="Process Flow.png" alt="Logo" width="800" height="600">
+  </a>
+  <h3 align="center">The Fun Hub Workflow</h3>
+</div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Here is a simple workflow on how the recommender system will work.
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+1. The the module 1 combines the meta data from the various OTT palteforms
+2. A combined list of preferences is updated.
+3. The module 2 will consider the user visioning views, and preferences, and matches this wit other viewers and build a list of shows.
+4. The module 3 will put a constraint on the lsit of priorities based on the number of views for each OTT and reprioritize the list of shows.
+5. A feedback from the user is collected to improve the model recommendations.
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [x] Data Collection
+- [ ] Building user data base
+- [ ] Building model for module 1 and optimizing it
+- [ ] Building model for module 2 and optimizing it
+- [ ] Building model for user feedback and integrating it to module 2
 
 
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
