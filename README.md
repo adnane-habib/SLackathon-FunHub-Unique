@@ -117,6 +117,10 @@ Here is a simple workflow on how the recommender system will work.
 5. A feedback from the user is collected to improve the model recommendations.
 
 
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MOzbbNdRtf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 
 
 
