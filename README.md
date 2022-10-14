@@ -116,6 +116,7 @@ Here is a simple workflow on how the recommender system will work.
 4. The module 3 will put a constraint on the lsit of priorities based on the number of views for each OTT and reprioritize the list of shows.
 5. A feedback from the user is collected to improve the model recommendations.
 
+[![The Fun Hub](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/MOzbbNdRtf0)
 
 <!-- ROADMAP -->
 ## Roadmap
