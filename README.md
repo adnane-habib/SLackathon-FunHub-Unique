@@ -180,6 +180,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Adnane Habib - [@AdnaneHabib](https://twitter.com/AdnaneHabib) - adnanou.habibou@gmail.com
+Linkedin Profile (https://www.linkedin.com/in/mohamed-adnane-habib/) 
 
 Project Link: [https://github.com/adnane-habib/SLackathon-FunHub-Unique](https://github.com/adnane-habib/SLackathon-FunHub-Unique)
 
